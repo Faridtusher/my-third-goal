@@ -11,10 +11,11 @@
 
 
 <body>
-   <header class="container-fluid">
-      <nav class="navbar navbar-expand-lg bg-light p-4">  
+   <!-- Header section -->
+   <header>
+      <nav class="navbar navbar-expand-lg p-4">  
          <div class="container-fluid">
-            <a class="navbar-brand  " target="_blank" href="https://classroom.switchon.org/">Miles Ahead</a>
+            <a class="navbar-brand  ms-4" target="_blank" href="https://classroom.switchon.org/">Miles Ahead</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -52,7 +53,8 @@
 
    
    <main>
-      <section class="mt-5 container-fluid">
+      <!-- Parts for sliders -->
+      <section class="mt-5 w-75 container-fluid ">
          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
             <div class="carousel-indicators">
                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -62,26 +64,26 @@
 
             <div class="carousel-inner">
                <div class="carousel-item active">
-                  <img src="images/cover/cover-2.png" class="d-block w-100 img-fluid " alt="cover-1">
+                  <img src="images/cover/cover-2.png" class="d-block w-100 img-fluid rounded" alt="cover-1">
                   <div class="carousel-caption d-none d-md-block">
-                  <h3>Welcome to our School</h3>
+                  <h1>Welcome to our School</h1>
                   <p>Learning helps us break out of our normal patterns of behaviour. It gives our brains something to think about other than our daily worries. It might be a mere temporary distraction but it shows our mind and body that thinking about something other than stressful things is possible and desirable</p>
                   <button class="btn btn-outline-warning" type="submit">Get Start</button>
                   </div>
                </div>
                <div class="carousel-item">
-                  <img src="images/cover/cover-3.png" class="d-block w-100 img-fluid " alt="cover-2">
+                  <img src="images/cover/cover-3.png" class="d-block w-100 img-fluid rounded" alt="cover-2">
                   <div class="carousel-caption d-none d-md-block">
-                  <h3>Welcome to our School</h3>
+                  <h1>Welcome to our School</h1>
                   <p>Learning helps us break out of our normal patterns of behaviour. It gives our brains something to think about other than our daily worries. It might be a mere temporary distraction but it shows our mind and body that thinking about something other than stressful things is possible and desirable</p>
                   <button class="btn btn-outline-warning" type="submit">Get Start</button>
                   </div>
                </div>
 
                <div class="carousel-item">
-                  <img src="images/cover/cover-1.png" class="d-block w-100 img-fluid " alt="cover-3">
+                  <img src="images/cover/cover-1.png" class="d-block w-100 img-fluid rounded" alt="cover-3">
                   <div class="carousel-caption d-none d-md-block">
-                  <h3>Welcome to our School</h3>
+                  <h1>Welcome to our School</h1>
                   <p>Learning helps us break out of our normal patterns of behaviour. It gives our brains something to think about other than our daily worries. It might be a mere temporary distraction but it shows our mind and body that thinking about something other than stressful things is possible and desirable</p>
                   <button class="btn btn-outline-warning" type="submit">Get Start</button>
                   </div>
@@ -98,13 +100,14 @@
          </div>
       </section>
 
+      <!-- Parts the intro of the courses  -->
       <section class=" w-50 col-md-12 col-sm-12 mt-5 text-center container-fluid mb-5">
          <h1>Discover our Popular</h1>
          <h1>Courses</h1>
          <p>Our courses will help you get new and knowledge-based perspectives on the world around you. It helps you gain new experiences, trains your brain to handle a wide range of challenges, and keeps your neural pathways active.</p>
       </section>
 
-
+      <!-- Details of the courses  -->
       <section class="container-fluid w-75 mb-5">
 
          <div class="card-group col-md-12 col-lg-6">
@@ -212,30 +215,17 @@
       </section>
 
 
-      <!-- <section class="container-fluid w-75 mt-5 d-flex">
-         <div>
-            <img class="img-fluid" src="images/working.png" alt="">
-         </div>
-
-         <div class="bg-light ">
-            <h2 class="ms-5">Explore the Elearning</h2>
-            <h2 class="ms-5">Institute</h2>
-            <p class="ms-5">E-Learning consist of teaching can be based in or out of the Classrooms, the use of computers and the Internet. E-learning definition is defined as providing Training and development to the Students/Employees through various Electronic media such as the Internet, audio, video etc.</p>
-            <div class="d-flex">
-               <h3 >3.2K</h3>
-               <h3 class="ms-5">600+</h3>
-               <h3 class="ms-5">1K</h3>
-            </div>
-         </div>
-      </section> -->
-
       <!-- Part for frequently ask question -->
-      <section class="container-fluid w-50 mt-5"> 
+      <section class="container-fluid w-50 mt-5 mb-5"> 
+         <div class="mb-5 text-center">
+            <h1>Frequently Asked Questions (FAQ)</h1>
+            <p>A frequently asked questions (FAQ) list is often used in articles, websites, email lists, and online forums where common questions tend to recur, in this section student can know the important question and the answer</p>
+         </div>
          <div class="accordion" id="accordionExample">
             <div class="accordion-item">
-               <h2 class="accordion-header h1" id="headingOne">
+               <h2 class="accordion-header " id="headingOne">
                   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  <strong>what are the difference between flexbox and grid</strong>
+                  <h4>what are the difference between flexbox and grid</h4>
                   </button>
                </h2>
 
@@ -250,7 +240,7 @@
             <div class="accordion-item">
                <h2 class="accordion-header" id="headingTwo">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  <strong>what are the difference between bootstrap and tailwind</strong>
+                  <h4>what are the difference between bootstrap and tailwind</h4>
                   </button>
                </h2>
                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
@@ -264,7 +254,7 @@
             <div class="accordion-item">
                <h2 class="accordion-header" id="headingThree">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  <strong>what is css box model</strong>
+                  <h4>what is css box model</h4>
                   </button>
                </h2>
 
@@ -279,7 +269,7 @@
             <div class="accordion-item">
                <h2 class="accordion-header" id="headingFour">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                  <strong>what is the semantic tag in html</strong>
+                  <h4>what is the semantic tag in html</h4>
                   </button>
                </h2>
                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
@@ -287,6 +277,32 @@
                      A semantic element clearly describes its meaning to both the browser and the developer. Examples of non-semantic elements: div and span - Tells nothing about its content. Examples of semantic elements: form , table , and article - Clearly defines its content.
                   </div>
                </div>
+            </div>
+         </div>
+      </section>
+
+
+      <!-- Trusted company list -->
+      <section class=" container mt-5">
+         <h1 class="mb-5 text-center d-none d-lg-block">Trusted by over 600+ company</h1>
+         <div class=" row ">
+            <div class="col-lg-2 d-none d-lg-block">
+               <img class="img-fluid" src="images/company/company-1.png" alt="company-1">
+            </div>
+            <div class="col-lg-2 d-none d-lg-block">
+               <img class="img-fluid" src="images/company/company-2.png" alt="company-1">
+            </div>
+            <div class="col-lg-2 d-none d-lg-block">
+               <img class="img-fluid" src="images/company/company-3.png" alt="company-1">
+            </div>
+            <div class="col-lg-2 d-none d-lg-block">
+               <img class="img-fluid " src="images/company/company-4.png" alt="company-1">
+            </div>
+            <div class="col-lg-2 d-none d-lg-block">
+               <img class="img-fluid" src="images/company/company-5.png" alt="company-1">
+            </div>
+            <div class="col-lg-2 d-none d-lg-block">
+               <img class="img-fluid" src="images/company/company-6.png" alt="company-1">
             </div>
          </div>
       </section>
